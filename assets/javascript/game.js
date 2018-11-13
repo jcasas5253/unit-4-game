@@ -19,4 +19,5 @@ var playerTotal = 0;
 //appending the win and loss tallies
 $('#winnumber').text("wins: " + wins);
 $('#losenumber').text("losses: " + losses);
+$('#total-score').text(playerTotal);
 });
