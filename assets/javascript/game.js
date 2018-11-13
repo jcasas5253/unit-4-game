@@ -15,4 +15,8 @@ var number4= Math.floor(Math.random()*11+1)
 var wins = 0;
 var losses = 0;
 var playerTotal = 0;
+
+//appending the win and loss tallies
+$('#winnumber').text("wins: " + wins);
+$('#losenumber').text("losses: " + losses);
 });
