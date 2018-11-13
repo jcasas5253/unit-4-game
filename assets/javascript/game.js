@@ -20,4 +20,32 @@ var playerTotal = 0;
 $('#winnumber').text("wins: " + wins);
 $('#losenumber').text("losses: " + losses);
 $('#total-score').text(playerTotal);
+
+//Click for gem 1
+$('#one').on ('click', function(){
+    playerTotal = playerTotal + number1;
+    console.log("New playerTotal= " + playerTotal);
+    $('#total-score').text(playerTotal);
+
+})
+//click for gem 2
+$('#two').on ('click', function() {
+    playerTotal = playerTotal + number2;
+    console.log("New playerTotal= " + playerTotal);
+    $('#total-score').text(playerTotal);
+})
+
+//click for gem 3
+$('#three').on ('click', function() {
+    playerTotal = playerTotal + number3;
+    console.log("New playerTotal= " + playerTotal);
+    $('#total-score').text(playerTotal);
+})
+
+//click for gem 4
+$('#four').on ('click', function() {
+    playerTotal = playerTotal + number4;
+    console.log("New playerTotal= " + playerTotal);
+    $('#total-score').text(playerTotal)
+})
 });
