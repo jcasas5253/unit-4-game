@@ -21,18 +21,31 @@ $('#winnumber').text("wins: " + wins);
 $('#losenumber').text("losses: " + losses);
 $('#total-score').text(playerTotal);
 
-//adds the wins to the playerTotal
+//resets the game
+function reset(){
+    compPick = Math.floor(Math.random() * 102) + 19; 
+    console.log("compPick: " + compPick); 
+    $("#randomNumber").html(compPick);
+    number1= Math.floor(Math.random()*11+1)
+    number2= Math.floor(Math.random()*11+1)
+    number3= Math.floor(Math.random()*11+1)
+    number4= Math.floor(Math.random()*11+1)
+    playerTotal= 0;
+    $('#total-score').text(playerTotal);
+    } 
+
+    //adds the wins to the playerTotal
 function winner(){
     alert("Winner!");
       wins++; 
-      $('#winnumber').text(wins);
+      $('#winnumber').text("wins: " + wins);
       reset();
     }
     //adds the losses to the playerTotal
     function loser(){
     alert ("You lose! Try Again.");
       losses++;
-      $('#losenumber').text(losses);
+      $('#losenumber').text("losses: " + losses);
       reset()
     }
 
