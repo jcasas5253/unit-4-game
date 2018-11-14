@@ -21,7 +21,22 @@ $('#winnumber').text("wins: " + wins);
 $('#losenumber').text("losses: " + losses);
 $('#total-score').text(playerTotal);
 
-//Click for gem 1
+//adds the wins to the playerTotal
+function winner(){
+    alert("Winner!");
+      wins++; 
+      $('#winnumber').text(wins);
+      reset();
+    }
+    //adds the losses to the playerTotal
+    function loser(){
+    alert ("You lose! Try Again.");
+      losses++;
+      $('#losenumber').text(losses);
+      reset()
+    }
+
+    //Click for gem 1
 $('#one').on ('click', function(){
     playerTotal = playerTotal + number1;
     console.log("New playerTotal= " + playerTotal);
