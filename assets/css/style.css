@@ -109,30 +109,30 @@ h2{
 }
 
 #total-score-div{
-margin: 20px;
-text-align:center;
-background-color: black;
-border-style: solid;
-border-width: thick;
-border-color: black;
-border-radius: 25px;
-width: 25%;
-position: relative;
-left: 35%;
+    margin: 20px;
+    text-align:center;
+    background-color: black;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 25px;
+    width: 25%;
+    position: relative;
+    left: 35%;
+    padding: 0;
 }
 
 #total-score-display{
-   background-color: black;
-   border-style: solid;
-   border-width: thick;
-   border-color: black;
-   border-radius: 25px;
-   width: 15%;
-   padding: 10px;
-   margin-bottom: 20px;
-   position: relative; 
-   left: 41%;
-   text-align: center;
+    margin: 20px;
+    text-align:center;
+    background-color: black;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 25px;
+    width: 25%;
+    position: relative;
+    left: 35%;
 }
 
 #total-score{
@@ -141,4 +141,14 @@ left: 35%;
 
 #randomNumber{
     color: aqua;
+}
+
+#winnumber{
+    color: tomato;
+    font-weight: bolder;
+}
+
+#losenumber{
+    color: tomato;
+    font-weight: bolder;
 }
