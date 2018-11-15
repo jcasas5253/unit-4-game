@@ -43,3 +43,42 @@ body{
     border-color: gold;
     border-radius: 25px;
 }
+
+.numberToMatch{
+    margin: 20px;
+    text-align:center;
+    background-color: gold;
+    border-style: solid;
+    border-width: thick;
+    border-color: gold;
+    border-radius: 25px;
+    width: 25%;
+    position: relative;
+    left: 35%;
+}
+
+#win-lose-tracker{
+    background-color: gold;
+    border-style: solid;
+    border-width: thick;
+    border-color: gold;
+    border-radius: 25px;
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative; 
+    left: 41%;
+    text-align: center; 
+}
+
+.gems{
+    background-color: black;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
