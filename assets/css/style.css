@@ -90,7 +90,8 @@ body{
     border-width: thick;
     border-color:black;
     border-radius: 25px;
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
 p{
@@ -102,5 +103,36 @@ h1{
 }
 
 h2{
+    color: #ffffff;
+}
+
+#total-score-div{
+margin: 20px;
+text-align:center;
+background-color: black;
+border-style: solid;
+border-width: thick;
+border-color: black;
+border-radius: 25px;
+width: 25%;
+position: relative;
+left: 35%;
+}
+
+#total-score-display{
+   background-color: black;
+   border-style: solid;
+   border-width: thick;
+   border-color: black;
+   border-radius: 25px;
+   width: 15%;
+   padding: 10px;
+   margin-bottom: 20px;
+   position: relative; 
+   left: 41%;
+   text-align: center;
+}
+
+#total-score{
     color: #ffffff;
 }
