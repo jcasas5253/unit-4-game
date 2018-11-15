@@ -58,17 +58,16 @@ body{
 }
 
 #win-lose-tracker{
+    margin: 20px;
+    text-align:center;
     background-color: black;
     border-style: solid;
     border-width: thick;
     border-color: black;
     border-radius: 25px;
-    width: 15%;
-    padding: 10px;
-    margin-bottom: 20px;
-    position: relative; 
-    left: 41%;
-    text-align: center; 
+    width: 25%;
+    position: relative;
+    left: 35%; 
 }
 
 .gems{
@@ -96,14 +95,17 @@ body{
 
 p{
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 h1{
-    color: #ffffff;
+    color: aqua;
+    font-family: 'Bangers', cursive;
 }
 
 h2{
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #total-score-div{
@@ -134,5 +136,9 @@ left: 35%;
 }
 
 #total-score{
-    color: #ffffff;
+    color: aqua;
+}
+
+#randomNumber{
+    color: aqua;
 }
