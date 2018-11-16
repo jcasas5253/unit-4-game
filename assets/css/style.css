@@ -53,8 +53,16 @@ body{
     border-color: black;
     border-radius: 25px;
     width: 25%;
-    position: relative;
-    left: 35%;
+    display: inline-block;
+}
+
+#numberToMatchContainer{
+    text-align: center;
+}
+
+
+#win-lose-tracker-container{
+    text-align: center;
 }
 
 #win-lose-tracker{
@@ -66,8 +74,7 @@ body{
     border-color: black;
     border-radius: 25px;
     width: 25%;
-    position: relative;
-    left: 35%; 
+    display: inline-block;
 }
 
 .gems{
@@ -78,19 +85,12 @@ body{
     border-radius: 25px;
     text-align: center;
     width: 50%;
-    position: relative;
-    left: 25%;
     margin-bottom: 20px;
+    display: inline-block;
 }
 
-#total-score-display{
-    background-color: black;
-    border-style: solid;
-    border-width: thick;
-    border-color:black;
-    border-radius: 25px;
+#gem-container{
     text-align: center;
-    margin-bottom: 20px; 
 }
 
 p{
@@ -117,9 +117,12 @@ h2{
     border-color: black;
     border-radius: 25px;
     width: 25%;
-    position: relative;
-    left: 35%;
-    padding: 0;
+    height: 50%;
+    display: inline-block;
+}
+
+#user-score-container{
+    text-align: center;
 }
 
 #total-score-display{
@@ -151,4 +154,11 @@ h2{
 #losenumber{
     color: tomato;
     font-weight: bolder;
+}
+
+@media screen and (max-width: 440px) {
+    img{
+        width: 50px;
+        height: 50px;
+    }
 }

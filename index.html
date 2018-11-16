@@ -24,26 +24,31 @@
         <p>Each time when the game starts, the game will change the values of each crystal</p>
         <p>Good Luck and have fun!</p>
     </div>
-    <div class="numberToMatch">
-        <h2>Number To Get:
-            <span id="randomNumber"></span>
-        </h2>
+    <div id="numberToMatchContainer">
+        <div class="numberToMatch">
+            <h2>Number To Get:
+                <span id="randomNumber"></span>
+            </h2>
+        </div>
     </div>
-    <div id="win-lose-tracker">
-        <p id="winnumber">Wins:</p>
-        <p id="losenumber">Losses:</p>
+    <div id="win-lose-tracker-container">
+        <div id="win-lose-tracker">
+            <p id="winnumber">Wins:</p>
+            <p id="losenumber">Losses:</p>
+        </div>
     </div>
+    <div id="gem-container">
     <div class="gems">
         <img src="assets/images/ruby.png" class=gemImage id="one" alt="Ruby Gem">
         <img src="assets/images/purple-crystal.png" class=gemImage id="two" alt="Purple Gem">
         <img src="assets/images/pink-crystal.png" class=gemImage id="three" alt="Pink Gem">
         <img src="assets/images/orange-crystal.png" class=gemImage id="four" alt="Orange Gem">
-    </div>
-    <div id="total-score-display">
-        <p id="score-total">Your Total Score Is:</p>
-    </div>
-    <div id="total-score-div">
-        <span id="total-score"></span>
+    </div></div>
+    <div id="user-score-container">
+        <div id="total-score-div">
+            <p id="score-total">Your Total Score Is:</p>
+            <span id="total-score"></span>
+        </div>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script src="assets/javascript/game.js"></script>
