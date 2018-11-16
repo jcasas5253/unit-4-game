@@ -102,7 +102,7 @@ p{
 
 h1{
     color: aqua;
-    font-family: 'Bangers', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2{
@@ -205,7 +205,7 @@ h2{
     }
 
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     h2{
