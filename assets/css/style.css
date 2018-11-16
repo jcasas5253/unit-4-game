@@ -168,7 +168,8 @@ h2{
 .funtext{
     color: aqua;
     font-style: italic;
-    font-weight: bold;
+    font-family: 'Kumar One Outline', cursive;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 440px) {
