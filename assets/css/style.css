@@ -177,6 +177,7 @@ h2{
 
     #numberToMatch{
         margin: 0px;
+        width: 80px;
     }
 
     #win-lose-tracker{
