@@ -42,6 +42,7 @@ body{
     border-width: thick;
     border-color: black;
     border-radius: 25px;
+    padding: 15px;
 }
 
 .numberToMatch{
@@ -75,6 +76,7 @@ body{
     border-radius: 25px;
     width: 25%;
     display: inline-block;
+    padding: 5px;
 }
 
 .gems{
@@ -94,7 +96,7 @@ body{
 }
 
 p{
-    color: #ffffff;
+    color: tomato;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -104,7 +106,7 @@ h1{
 }
 
 h2{
-    color: #ffffff;
+    color: tomato;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -147,18 +149,44 @@ h2{
 }
 
 #winnumber{
-    color: tomato;
-    font-weight: bolder;
+    color: aqua;
 }
 
 #losenumber{
+    color: aqua;
+}
+
+#header3{
     color: tomato;
-    font-weight: bolder;
+}
+
+#header4{
+    color:tomato;
 }
 
 @media screen and (max-width: 440px) {
     img{
         width: 50px;
         height: 50px;
+    }
+
+    #instructions{
+        margin: 0px;
+    }
+
+    #numberToMatch{
+        margin: 0px;
+    }
+
+    #win-lose-tracker{
+        margin: 0px;
+    }
+
+    .gems{
+        margin: 15px;
+    }
+
+    #total-score-display{
+        margin: 0px;
     }
 }

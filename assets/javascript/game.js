@@ -17,8 +17,8 @@ var losses = 0;
 var playerTotal = 0;
 
 //appending the win and loss tallies
-$('#winnumber').text("wins: " + wins);
-$('#losenumber').text("losses: " + losses);
+$('#winnumber').text(" " + wins);
+$('#losenumber').text(" " + losses);
 $('#total-score').text(playerTotal);
 
 //resets the game
@@ -38,14 +38,14 @@ function reset(){
 function winner(){
     alert("Winner!");
       wins++; 
-      $('#winnumber').text("wins: " + wins);
+      $('#winnumber').text(" " + wins);
       reset();
     }
     //adds the losses to the playerTotal
     function loser(){
     alert ("You lose! Try Again.");
       losses++;
-      $('#losenumber').text("losses: " + losses);
+      $('#losenumber').text(" " + losses);
       reset()
     }
 
