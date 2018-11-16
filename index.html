@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!--Necessary meta/link tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,9 +12,12 @@
 </head>
 
 <body>
+    <!--Game Title-->
     <div id="game-name">
         <h1>Crystal Collector!</h1>
     </div>
+   
+    <!--Instructions div Start-->
     <div id="instructions">
         <p>You will be given a random number at the start of the game.</p>
         <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
@@ -24,6 +28,9 @@
         <p>Each time when the game starts, the game will change the values of each crystal</p>
         <p>Good Luck and have fun!</p>
     </div>
+    <!--Instruction div End-->
+    
+    <!--Random number selected by computer shown here-->
     <div id="numberToMatchContainer">
         <div class="numberToMatch">
             <h2>Number To Get:
@@ -31,6 +38,8 @@
             </h2>
         </div>
     </div>
+    
+    <!--Scoreboard Start-->
     <div id="win-lose-tracker-container">
         <div id="win-lose-tracker">
             <h3 id="header3">Wins:</h3>
@@ -39,6 +48,9 @@
             <span id="losenumber"></span>
         </div>
     </div>
+    <!--Scoreboard End-->
+    
+    <!--Crystal/Gem Images-->
     <div id="gem-container">
     <div class="gems">
         <img src="assets/images/ruby.png" class=gemImage id="one" alt="Ruby Gem">
@@ -46,12 +58,16 @@
         <img src="assets/images/pink-crystal.png" class=gemImage id="three" alt="Pink Gem">
         <img src="assets/images/orange-crystal.png" class=gemImage id="four" alt="Orange Gem">
     </div></div>
+    
+    <!--User's Total # of collected Crystals/Gems-->
     <div id="user-score-container">
         <div id="total-score-div">
             <p id="score-total">Your Total Score Is:</p>
             <span id="total-score"></span>
         </div>
     </div>
+
+    <!--JavaScript and jquery scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>

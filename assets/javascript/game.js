@@ -38,14 +38,14 @@ function reset(){
 function winner(){
     alert("Winner!");
       wins++; 
-      $('#winnumber').text(" " + wins);
+    $('#winnumber').text(" " + wins);
       reset();
     }
     //adds the losses to the playerTotal
-    function loser(){
+function loser(){
     alert ("You lose! Try Again.");
       losses++;
-      $('#losenumber').text(" " + losses);
+    $('#losenumber').text(" " + losses);
       reset()
     }
 
