@@ -175,13 +175,13 @@ h2{
         margin: 0px;
     }
 
-    #numberToMatch{
-        margin: 0px;
-        width: 80px;
+    .numberToMatch{
+        margin: 10px;
+        width: 100px;
     }
 
     #win-lose-tracker{
-        margin: 0px;
+        margin: 10px;
     }
 
     .gems{
@@ -190,7 +190,7 @@ h2{
     }
 
     #total-score-display{
-        margin: 0px;
+        margin: 10px;
     }
 
     p{
