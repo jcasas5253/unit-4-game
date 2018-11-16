@@ -157,12 +157,18 @@ h2{
 }
 
 #header3{
-    color: aqua;
+    color: #ffffff;
     text-align: center;
 }
 
 #header4{
-    color:aqua;
+    color:#ffffff;
+}
+
+.funtext{
+    color: aqua;
+    font-style: italic;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 440px) {
