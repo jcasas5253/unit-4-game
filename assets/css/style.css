@@ -96,7 +96,7 @@ body{
 }
 
 p{
-    color: tomato;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
@@ -106,7 +106,7 @@ h1{
 }
 
 h2{
-    color: tomato;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -141,27 +141,28 @@ h2{
 }
 
 #total-score{
-    color: aqua;
-}
-
-#randomNumber{
-    color: aqua;
-}
-
-#winnumber{
-    color: aqua;
-}
-
-#losenumber{
-    color: aqua;
-}
-
-#header3{
     color: tomato;
 }
 
+#randomNumber{
+    color: tomato;
+}
+
+#winnumber{
+    color: tomato;
+}
+
+#losenumber{
+    color: tomato;
+}
+
+#header3{
+    color: aqua;
+    text-align: center;
+}
+
 #header4{
-    color:tomato;
+    color:aqua;
 }
 
 @media screen and (max-width: 440px) {
