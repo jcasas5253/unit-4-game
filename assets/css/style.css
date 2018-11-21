@@ -141,19 +141,19 @@ h2{
 }
 
 #total-score{
-    color: tomato;
+    color: rgb(255, 75, 43);
 }
 
 #randomNumber{
-    color: tomato;
+    color: rgb(255, 75, 43);
 }
 
 #winnumber{
-    color: tomato;
+    color: aqua;
 }
 
 #losenumber{
-    color: tomato;
+    color: aqua;
 }
 
 #header3{
@@ -185,6 +185,7 @@ h2{
     .numberToMatch{
         margin: 10px;
         width: 100px;
+        padding: 10px;
     }
 
     #win-lose-tracker{
@@ -194,6 +195,7 @@ h2{
     .gems{
         margin: 10px;
         margin-top: 20px;
+        padding: 10px;
     }
 
     #total-score-display{
