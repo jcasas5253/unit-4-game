@@ -1,5 +1,53 @@
+@-webkit-keyframes colorchange {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: #8e44ad;
+    }
+
+    20% {
+        color: #1abc9c;
+    }
+
+    30% {
+        color: #d35400;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: #34495e;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: #2980b9;
+    }
+
+    80% {
+        color: #f1c40f;
+    }
+
+    90% {
+        color: #2980b9;
+    }
+
+    100% {
+        color: pink;
+    }
+}
+
 body {
-    background-color: #331f4e;
+    background: url("../../assets/images/background.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Prompt', sans-serif
 }
 
 #random-num-goal{
@@ -17,7 +65,7 @@ img{
 }
 
 #total-score{
-    font-size: 90px;
+    font-size: 50px;
 }
 
 #game-name{
@@ -38,13 +86,10 @@ img{
     background-image: url("http://www.onextrapixel.com/wp-content/uploads/2010/09/37diamond.jpg");
 } */
 
-#instructions{
+#instructions {
     margin: 20px;
-    text-align:center;
-    background-color: black;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     padding: 15px;
 }
@@ -70,12 +115,10 @@ img{
     text-align: center;
 }
 
-#win-lose-tracker{
+#win-lose-tracker {
     margin: 20px;
-    text-align:center;
-    background-color: black;
-    border-style: solid;
-    border-width: thick;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
     border-color: black;
     border-radius: 25px;
     width: 25%;
@@ -83,11 +126,8 @@ img{
     padding: 5px;
 }
 
-.gems{
-    background-color: black;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
+.gems {
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     text-align: center;
     width: 50%;
@@ -95,32 +135,40 @@ img{
     display: inline-block;
 }
 
+.gemImage {
+    margin-bottom: 15px;
+}
+
+.gemImage:hover {
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
 #gem-container{
     text-align: center;
 }
 
-p{
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif; 
+p {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2.0;
 }
 
-h1{
-    color: aqua;
-    font-family: 'Ubuntu', sans-serif;
+h1 {
+    -webkit-animation: colorchange 20s infinite alternate;
+    font-family: 'Kumar One Outline', cursive;
+    text-decoration: underline;
 }
 
-h2{
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+h2 {
+    color: black;
+    font-family: 'Press Start 2P', cursive;    
 }
 
-#total-score-div{
+#total-score-div {
     margin: 20px;
-    text-align:center;
-    background-color: black;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     width: 25%;
     height: 50%;
@@ -144,33 +192,43 @@ h2{
     left: 35%;
 }
 
-#total-score{
-    color: aqua;
+#total-score {
+    color: navy;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #randomNumber{
-    color: aqua;
+    color: navy;
 }
 
-#winnumber{
-    color: aqua;
+#winnumber {
+    color: navy;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Press Start 2P', cursive;
 }
 
-#losenumber{
-    color: aqua;
+#losenumber {
+    color: navy;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #header3{
-    color: #ffffff;
+    color: black;
     text-align: center;
+    display: inline-block;
 }
 
 #header4{
-    color:#ffffff;
+    color:black;
+    display: inline-block;
 }
 
-.funtext{
-    color: aqua;
+.funtext {
+    -webkit-animation: colorchange 20s infinite alternate;
     font-style: italic;
     font-family: 'Kumar One Outline', cursive;
     font-size: 20px;
